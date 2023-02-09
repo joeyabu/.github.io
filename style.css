@@ -33,8 +33,9 @@ body{
 
 .main{
     background-color: aqua;
-    height: 1150px;
+    height: 1100px;
 }
+
 .copy-container h1{
     width: 250px;
     margin-left: auto;
@@ -43,11 +44,15 @@ body{
 .copy-container h2{
     font-size:70px;
     width: 850px;
+    margin-top: 35px;
+    margin-bottom: 35px;
     margin-left: auto;
     margin-right: auto;
 }
 .copy-container-list h3{
     font-size:25px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .main span{
     color:#FF4F02;
@@ -80,3 +85,4 @@ body{
     padding-left: 20px;
     padding-right: 20px;
 }
+
