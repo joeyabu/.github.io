@@ -6,12 +6,12 @@ body{
 
 .header{
     background-color: #FF99CC;
-    height: 152px;
+    height: 150px;
 }
 .header-logo{
     float: left;
     font-size:60px;
-    padding-top:40px;
+    padding-top:30px;
     padding-bottom:70px;
     padding-left: 20px;
     padding-right: 20px;
@@ -60,13 +60,13 @@ body{
 
 .footer{
     background-color: antiquewhite;
-    height:152px;
+    height:150px;
 }
 
 .footer-logo{
     float: left;
     font-size:60px;
-    padding-top:40px;
+    padding-top:30px;
     padding-bottom:70px;
     padding-left: 20px;
     padding-right: 20px;
@@ -85,3 +85,4 @@ body{
     padding-left: 20px;
     padding-right: 20px;
 }
+
