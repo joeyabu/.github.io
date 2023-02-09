@@ -10,11 +10,11 @@ body{
 }
 .header-logo{
     float: left;
-    font-size:50px;
-    padding-top:40px;
-    padding-bottom:40px;
-    padding-left: 60px;
-    padding-right: 60px;
+    font-size:60px;
+    padding-top:60px;
+    padding-bottom:60px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .header-logo span{
@@ -24,16 +24,16 @@ body{
 .header-list li{
     list-style: none;
     float:right;
-    font-size:18;
-    padding-top:30px;
-    padding-bottom:30px;
+    font-size:18px;
+    padding-top:130px;
+    padding-bottom:50px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .main{
     background-color: aqua;
-    height: 1000px;
+    height: 1150px;
 }
 .copy-container h1{
     width: 250px;
@@ -41,13 +41,13 @@ body{
     margin-right: auto;
 }
 .copy-container h2{
-    font-size:80px;
-    width: 800px;
+    font-size:70px;
+    width: 850px;
     margin-left: auto;
     margin-right: auto;
 }
-.copy-container h3{
-    font-size:60px;
+.copy-container-list h3{
+    font-size:25px;
 }
 .main span{
     color:#FF4F02;
@@ -55,16 +55,16 @@ body{
 
 .footer{
     background-color: antiquewhite;
-    height:90px;
+    height:200px;
 }
 
 .footer-logo{
-    float:left;
-    font-size:50px;
-    padding-top:40px;
-    padding-bottom:40px;
-    padding-left: 60px;
-    padding-right: 60px;
+    float: left;
+    font-size:60px;
+    padding-top:60px;
+    padding-bottom:60px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .footer-logo span{
@@ -74,9 +74,9 @@ body{
 .footer-list li{
     list-style: none;
     float:right;
-    font-size:18;
-    padding-top:30px;
-    padding-bottom:30px;
+    font-size:18px;
+    padding-top:130px;
+    padding-bottom:50px;
     padding-left: 20px;
     padding-right: 20px;
 }
