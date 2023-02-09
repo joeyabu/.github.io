@@ -6,11 +6,11 @@ body{
 
 .header{
     background-color: #FF99CC;
-    height:200px;
+    height: 200px;
 }
 .header-logo{
     float: left;
-    font-size:36px;
+    font-size:42px;
     padding-top:20px;
     padding-bottom:20px;
     padding-left: 40px;
@@ -24,6 +24,7 @@ body{
 .header-list li{
     list-style: none;
     float:right;
+    font-size:18;
     padding-top:30px;
     padding-bottom:30px;
     padding-left: 20px;
@@ -40,13 +41,13 @@ body{
     margin-right: auto;
 }
 .copy-container h2{
-    font-size:60px;
+    font-size:70px;
     width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
 .copy-container h3{
-    font-size:40px;
+    font-size:50px;
 }
 .main span{
     color:#FF4F02;
@@ -54,12 +55,12 @@ body{
 
 .footer{
     background-color: antiquewhite;
-    height:200px;
+    height:90px;
 }
 
 .footer-logo{
     float:left;
-    font-size:36px;
+    font-size:42px;
     padding-top:20px;
     padding-bottom:20px;
     padding-left: 40px;
@@ -73,6 +74,7 @@ body{
 .footer-list li{
     list-style: none;
     float:right;
+    font-size:18;
     padding-top:30px;
     padding-bottom:30px;
     padding-left: 20px;
