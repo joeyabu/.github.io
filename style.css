@@ -6,7 +6,7 @@ body{
 
 .header{
     background-color: #FF99CC;
-    height: 165px;
+    height: 155px;
 }
 .header-logo{
     float: left;
@@ -33,7 +33,7 @@ body{
 
 .main{
     background-color: aqua;
-    height: 1100px;
+    height: 1150px;
 }
 
 .copy-container h1{
@@ -60,7 +60,7 @@ body{
 
 .footer{
     background-color: antiquewhite;
-    height:165px;
+    height:155px;
 }
 
 .footer-logo{
