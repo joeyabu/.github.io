@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Joe意味.com</title>
+        <meta name="description" content="ホームページを制作してみました。内容はないよう〜。">
+        <meta name=”viewport” content=”width=device-width,initial-scale=1″>
+        <!--CSS-->
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="header">
+        <h1>
+            <div class="header-logo">ようこそ<span>Joe意味.com</span>へ</div>
+        </h1>
+                <div class="header-list">
+                <ul>
+                    <li><a href="https://twitter.com/JoeYabuki_NS">Twitterページ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="copy-container">
+                <h1><img id="pic" src="simple.jpg" width="200px" height="220px"></h1>
+                <script>
+
+                    'use strict';
+                    
+                    const img = ["simple.jpg", "smile.jpg", ];
+                    
+                    let count = -1;
+                    
+                    picChange(); // 関数を実行
+                    
+                    function picChange() {
+                    
+                      count++;
+                    
+                      // カウントが最大になれば配列を初期値に戻すため「0」を指定する
+                      if (count == img.length) count = 0;
+                    
+                      // 画像選択
+                      document.getElementById("pic").src = img[count];
+                    
+                      // 1秒ごとに実行
+                      setTimeout("picChange()", 1000);
+                    
+                    }
+                    
+                    </script>
+                <h2>「Joe意味.com」の軌跡</h2>
+            </div>
+                <div class="copy-container-list">
+                <h3>
+                    <ul>
+                    <li>居酒屋で同僚にドメインの購入を勧められる</li>
+                    <li>「.com」欲しさと、年間980円という調達コストが決め手で「joe意味.com」<span>ドメインを取得</span></li>
+                    <li>せっかくドメインを買ったのでWebサイトを作ることを決意</li>
+                    <li>Amazonでホームページ制作的なキーワードで目についた<span>JavaScript</span>の本を買う</li>
+                    <li>HTMLとCSSというものが必要な要件だと知る</li>
+                    <li><span>Progate</span>で再度学び直す</li>
+                    <li>Webサイトを作れたが、どうやったら購入したドメインを使えるのか分からなくて悩む</li>
+                    <li>そもそも自分のPCでしか見れないサイトで<span>まだ世に出てなかった</span>ことに気づく</li>
+                    <li>サーバーにアップロードするという概念を知る</li>
+                    <li>DNSとかネームサーバーとかを調べて、どうにか<span>世の中にローンチする</span></li>
+                    </ul>
+                </h3>
+            </div>
+            <div class="contents">
+
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-logo">See <span>you</span> again.</div>
+                <div class="footer-list">
+                    <ul>
+                        <li><a href="https://nstock.co.jp/">勤務先</a></li>
+                    </ul>
+                </div>
+        </div>
+    </body>
+</html>
