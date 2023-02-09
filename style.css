@@ -10,11 +10,11 @@ body{
 }
 .header-logo{
     float: left;
-    font-size:42px;
-    padding-top:20px;
-    padding-bottom:20px;
-    padding-left: 40px;
-    padding-right: 40px;
+    font-size:50px;
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .header-logo span{
@@ -41,13 +41,13 @@ body{
     margin-right: auto;
 }
 .copy-container h2{
-    font-size:70px;
-    width: 700px;
+    font-size:80px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
 .copy-container h3{
-    font-size:50px;
+    font-size:60px;
 }
 .main span{
     color:#FF4F02;
@@ -60,11 +60,11 @@ body{
 
 .footer-logo{
     float:left;
-    font-size:42px;
-    padding-top:20px;
-    padding-bottom:20px;
-    padding-left: 40px;
-    padding-right: 40px;
+    font-size:50px;
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .footer-logo span{
