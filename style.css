@@ -6,7 +6,7 @@ body{
 
 .header{
     background-color: #FF99CC;
-    height: 165px;
+    height: 160px;
 }
 .header-logo{
     float: left;
@@ -60,7 +60,7 @@ body{
 
 .footer{
     background-color: antiquewhite;
-    height:165px;
+    height:160px;
 }
 
 .footer-logo{
