@@ -33,7 +33,7 @@ body{
 
 .main{
     background-color: aqua;
-    height: 1200px;
+    height: 1700px;
 }
 
 .copy-container h1{
@@ -60,6 +60,13 @@ body{
     margin-top: auto;
     margin-bottom: auto;
 }
+
+.copy-container-list h5{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .main span{
     color:#FF4F02;
 }
@@ -91,3 +98,4 @@ body{
     padding-left: 20px;
     padding-right: 20px;
 }
+
