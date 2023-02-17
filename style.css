@@ -33,21 +33,15 @@ body{
 
 .main{
     background-color: aqua;
-    height: 1200px;
+    height: 1100px;
 }
 
 .copy-container h1{
-    width: 450px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.copy-container h2{
     width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
-.copy-container h3{
+.copy-container h2{
     font-size:70px;
     width: 850px;
     margin-top: 35px;
@@ -55,7 +49,7 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-.copy-container-list h4{
+.copy-container-list h3{
     font-size:25px;
     margin-top: auto;
     margin-bottom: auto;
@@ -88,10 +82,8 @@ body{
     list-style: none;
     float:right;
     font-size:18px;
-    padding-top:110px;
+    padding-top:60px;
     padding-bottom:70px;
     padding-left: 20px;
     padding-right: 20px;
 }
-
-
