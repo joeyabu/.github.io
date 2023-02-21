@@ -1,16 +1,12 @@
-    function Buttontoggle()
-    {
-        //btnに対応するHTML要素を抽出
-        const t = document.getElementById("btn");
-        //JSからHTMLに指示
-        if(t.value=="おはよう"){
-            t.value="こんにちは";
-        }
-        else if(t.value=="こんにちは"){
-            t.value="こんばんは";
-        }
-        else if(t.value=="こんばんは"){
-            t.value="おはよう";
-        }
+const greetingBtn = document.getElementById('greeting-btn');
+const greetings = ['おはよう', 'こんにちは', 'こんばんは'];
+const audioFiles = ['ohayo.mp3', 'konnichiwa.mp3', 'konbanwa.wav'];
+let currentGreetingIndex = 0;
 
-    }
+greetingBtn.addEventListener('click', () => {
+  currentGreetingIndex = (currentGreetingIndex + 1) % greetings.length;
+  const greeting = greetings[currentGreetingIndex];
+  const audio = new Audio(audioFiles[currentGreetingIndex]);
+  audio.play();
+  greetingBtn.textContent = greeting;
+});
