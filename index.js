@@ -1,6 +1,6 @@
 const greetingBtn = document.getElementById('greeting-btn');
 const greetings = ['おはよう', 'こんにちは', 'こんばんは'];
-const audioFiles = ['ohayo.m4a', 'konnichiwa.m4a', 'konbanwa.m4a'];
+const audioFiles = ['konbanwa.m4a', 'ohayo.m4a', 'konnichiwa.m4a'];
 let currentGreetingIndex = 0;
 
 greetingBtn.addEventListener('click', () => {
