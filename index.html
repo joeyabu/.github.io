@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
     <head>
         <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZY8SFGJW7R"></script>
@@ -15,7 +15,8 @@
         <meta name="description" content="ホームページを制作してみました。内容はないよう〜。">
         <meta name=”viewport” content=”width=device-width,initial-scale=1″>
         <!--CSS-->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"  href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     </head>
     <body>
@@ -31,6 +32,10 @@
         </div>
         <div class="main">
             <div class="copy-container">
+             <!--天気予報-->
+             <div id="weather" style="width: 150px;height: 35px;font-size:large;position:absolute;right:3%;top:25%;" ></div>
+
+            <!--メイン-->
                 <h1><img id="pic" src="simple.jpg" width="270px" height="300px"></h1>
                 <script>
 
