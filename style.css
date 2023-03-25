@@ -1,40 +1,51 @@
 @charset "utf-8";
 
-body{
-    font-family:sans-serif;
+body {
+  font-family: sans-serif;
 }
 
-.header{
-    background-color: #FF99CC;
-    height: 150px;
-}
-.header-logo{
-    float: left;
-    font-size:60px;
-    padding-top:30px;
-    padding-bottom:70px;
-    padding-left: 20px;
-    padding-right: 20px;
+.header {
+  background-color: #FF99CC;
+  height: 150px;
 }
 
-.header-logo span{
-    color:#0000FF;
+.header-logo {
+  float: left;
+  font-size: 60px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.header-list li{
-    list-style: none;
-    float:right;
-    font-size:18px;
-    padding-top:110px;
-    padding-bottom:70px;
-    padding-left: 20px;
-    padding-right: 20px;
+.header-logo span {
+  color: #0000FF;
 }
 
-.main{
-    background-color: aqua;
-    height: 1100px;
+.header-list li {
+  list-style: none;
+  float: right;
+  font-size: 18px;
+  padding-top: 110px;
+  padding-bottom: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
+.main {
+  background-color: aqua;
+  height: 1100px;
+}
+
+@media (max-width: 767px) {
+    .header-list li {
+      float: none;
+      display: block;
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
 
   
   #weather {
@@ -107,3 +118,4 @@ body{
     padding-left: 20px;
     padding-right: 20px;
 }
+
